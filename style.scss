@@ -7,12 +7,28 @@ color: #222;
 padding-left: 1%;
 padding-right: 1%;
 }
-img 
+.history img
 {
   cursor: pointer;
   transition: 0.3s;
 }
-img:hover
+.generation img
+{
+  cursor: pointer;
+  transition: 0.3s;
+}
+#slides img
+{
+  border-radius: 15px;
+}
+.carousel-inner img{
+  width: 100%;
+}
+.generation img:hover
+{
+  opacity: 0.7;
+}
+.history img:hover
 {
   opacity: 0.7;
 }
